@@ -1,0 +1,36 @@
+{
+  "name": "northwind-mongodb",
+  "version": "0.1.0",
+  "description": "A command line tool to display northwind traders db reports",
+  "preferGlobal": "true",
+  "keyword": [
+    "northwind",
+    "mongodb",
+    "mongodb aggregation framework",
+    "cli"
+  ],
+  "main": "./index.js",
+  "bin": {
+    "northwind": "./index.js"
+  },
+  "dependencies": {
+    "optimist": "0.6.x",
+    "mongodb": "1.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raynaldmo/northwind-mongodb.git"
+  },
+  "author": {
+    "name": "Raynald Mompoint",
+    "email": "raynaldmo@gmail.com"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/raynaldmo/northwind-mongodb/issues"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-mongoimport": "0.1.4"
+  }
+}
