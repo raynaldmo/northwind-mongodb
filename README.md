@@ -52,6 +52,56 @@ For this to work, you'll of course need to have mongodb installed on your
 and the mongod daemon running. From any directory run the following:
 
     $ grunt import --stack
+    Running "mongoimport" task
+    connected to: localhost:27017
+    2014-07-11T14:13:39.411-0700 dropping: Northwind.categories
+    2014-07-11T14:13:39.418-0700 imported 8 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:39.471-0700 dropping: Northwind.customers
+    2014-07-11T14:13:39.487-0700 check 9 92
+    2014-07-11T14:13:39.491-0700 imported 91 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:39.540-0700 dropping: Northwind.employee_territories
+    2014-07-11T14:13:39.550-0700 check 9 50
+    2014-07-11T14:13:39.553-0700 imported 49 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:39.601-0700 dropping: Northwind.employees
+    2014-07-11T14:13:39.609-0700 check 9 13
+    2014-07-11T14:13:39.610-0700 imported 12 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:39.658-0700 dropping: Northwind.order_details
+    2014-07-11T14:13:39.851-0700 check 9 2156
+    2014-07-11T14:13:39.902-0700 imported 2155 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:39.950-0700 dropping: Northwind.orders
+    2014-07-11T14:13:40.079-0700 check 9 831
+    2014-07-11T14:13:40.084-0700 imported 830 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.132-0700 dropping: Northwind.products
+    2014-07-11T14:13:40.148-0700 check 9 78
+    2014-07-11T14:13:40.150-0700 imported 77 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.198-0700 dropping: Northwind.regions
+    2014-07-11T14:13:40.202-0700 imported 4 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.250-0700 dropping: Northwind.shippers
+    2014-07-11T14:13:40.253-0700 imported 3 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.302-0700 dropping: Northwind.suppliers
+    2014-07-11T14:13:40.312-0700 check 9 30
+    2014-07-11T14:13:40.313-0700 imported 29 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.365-0700 dropping: Northwind.territories
+    2014-07-11T14:13:40.376-0700 check 9 54
+    2014-07-11T14:13:40.378-0700 imported 53 objects
+    connected to: localhost:27017
+    2014-07-11T14:13:40.426-0700 dropping: Northwind.northwind
+    2014-07-11T14:13:40.748-0700 check 9 830
+    2014-07-11T14:13:40.749-0700 imported 830 objects
+    
+    Done, without errors.
+
+    
 
 ## Verify database import
 From mongo shell:
