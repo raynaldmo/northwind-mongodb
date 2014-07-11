@@ -25,7 +25,7 @@
     "name": "Raynald Mompoint",
     "email": "raynaldmo@gmail.com"
   },
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/raynaldmo/northwind-mongodb/issues"
   },
