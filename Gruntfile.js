@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         mongoimport: {
             options: {
-                db : 'Northwind_test',
+                db : 'Northwind',
                 host : 'localhost', //optional
                 port: '27017', //optional
                 stopOnError : true,  //optional

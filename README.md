@@ -3,10 +3,10 @@
 
 northwind-mongodb is a simple node.js app with a command line interface
 (northwind) to display sample Northwind Traders database reports. Google
-'northwind traders' for more info.
+'northwind traders' for more info on this example fictitious database.
 
 This app is meant to be learning tool for those learning how to implement
-mongodb CRUD and aggregation operations using the native node mongodb driver.
+mongodb CRUD and aggregation operations using the node native mongodb driver.
 
 The Northwind Traders database used in this app is indentical to that
 used in the text [MongodDB Aggregation Framework].
@@ -36,12 +36,13 @@ On unix systems, this will typically install grunt in /usr/bin.
     $ sudo npm install -g grunt-cli
     
 ### Install app modules
-cd to directory of choice and run the following:
+cd to any directory of your choice and run the following:
 
     $ npm install
     
-### Install app binary
-From any directory, run the following. On unix systems, this will typically install grunt in /usr/bin.
+### Install app executable
+From any directory, run the following. On unix systems, this will typically
+install the 'northwind' executable in /usr/bin.
 
     $ npm install -g northwind-mongodb
     or
@@ -49,7 +50,8 @@ From any directory, run the following. On unix systems, this will typically inst
     
 ## Import database and collections
 For this to work, you'll of course need to have mongodb installed on your 
-and the mongod daemon running. From any directory run the following:
+system and have the mongod daemon running. From any directory run the
+following:
 
     $ grunt import --stack
 
