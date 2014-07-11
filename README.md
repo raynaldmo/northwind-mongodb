@@ -15,6 +15,7 @@ Feel free to contribute!
     npm install -g northwind-mongodb
 
 ## Options
+
   -h			Display help
   -o			Set mongodb host
   -p			Set mongodb port
