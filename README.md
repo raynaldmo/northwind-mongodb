@@ -22,36 +22,45 @@ complexity of a web server/web interface.
 
 
 ## Installation Steps
-(Note: Of course [node] must be properly installed and working on your system 
-for the following installation steps to work)
 
-### Install grunt
 
-The [grunt] utility is used to create the mongodb Northwind database 
-and collections used by this app. Run the following from any directory.
-On unix systems, this will typically install grunt in /usr/bin.
+### Get project files
+Download ZIP file or clone this repository.
+cd to directory where the files are installed on your system.
 
-    $ npm install -g grunt-cli
-    or
-    $ sudo npm install -g grunt-cli
-    
-### Install app modules
-cd to any directory of your choice and run the following:
+Directory should contain the following:
+    $ ls
+    collections  Gruntfile.js  index.js  lib  LICENSE  package.json  README.md  scripts
 
+#### The following steps assume [node] and npm is installed and working
+on your system.
+
+### Install node modules
     $ npm install
-    
-### Install app executable
-From any directory, run the following. On unix systems, this will typically
-install the 'northwind' executable in /usr/bin.
+
+### Install northwind executable
+Run the following. On unix systems, this will typically
+install the 'northwind' executable in /usr/bin or /usr/local/bin
 
     $ npm install -g northwind-mongodb
     or
     $ sudo npm install -g northwind-mongodb
-    
+
+### Install grunt
+
+The [grunt] utility is used to create the mongodb Northwind database 
+and collections used by this app.
+On unix systems, this will typically install grunt in /usr/bin or
+/usr/local/bin
+
+    $ npm install -g grunt-cli
+    or
+    $ sudo npm install -g grunt-cli
+
+
 ## Import database and collections
 For this to work, you'll of course need to have mongodb installed on your 
-system and have the mongod daemon running. From any directory run the
-following:
+system and have the mongod daemon running.
 
     $ grunt import --stack
     Running "mongoimport" task
