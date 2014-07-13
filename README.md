@@ -3,7 +3,7 @@
 
 northwind-mongodb is a simple node.js app with a command line interface
 (northwind) to display sample Northwind Traders database reports. Google
-'northwind traders' for more info on this example fictitious database.
+'northwind traders' for more info on this database.
 
 This app is meant to be learning tool for those learning how to implement
 mongodb CRUD and aggregation operations using the node native mongodb driver.
@@ -14,11 +14,12 @@ used in the text [MongodDB Aggregation Framework].
 A command line interface was chosen to avoid the overhead/
 complexity of a web server/web interface.
 
-#### If you're learning mongoDB, feel free to play with this app and contribute to it!
+*If you're learning mongoDB, feel free to play with and contribute 
+to this app*.
 
  
-* Add command line options for additional reports (employee list etc.)
-* Other features
+* Add command line options for additional reports (employee list etc).
+* Other features you may think of.
 
 
 ## Installation Steps
@@ -29,17 +30,19 @@ Download ZIP file or clone this repository.
 cd to directory where the files are installed on your system.
 
 Directory should contain the following:
+
     $ ls
     collections  Gruntfile.js  index.js  lib  LICENSE  package.json  README.md  scripts
-
-#### The following steps assume [node] and npm is installed and working
-on your system.
+    
+    
+**Note: The following steps assume [node] and npm is installed and working
+on your system.**
 
 ### Install node modules
     $ npm install
 
 ### Install northwind executable
-Run the following. On unix systems, this will typically
+On unix systems, this will typically
 install the 'northwind' executable in /usr/bin or /usr/local/bin
 
     $ npm install -g northwind-mongodb
