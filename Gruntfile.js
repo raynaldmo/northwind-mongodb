@@ -99,6 +99,6 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('import', ['mongoimport']);
+    grunt.registerTask('csv-import', ['mongoimport']);
 
 };
