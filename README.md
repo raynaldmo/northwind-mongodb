@@ -5,6 +5,9 @@ northwind-mongodb is a simple node.js app with a command line interface
 (northwind) to display sample Northwind Traders database reports. Google
 'northwind traders' for more info on this database.
 
+(Note: The csv collection files used are from the
+[northwind-mongo] project. Much props to the authors.)
+
 This app is meant to be learning tool for those learning how to implement
 mongodb CRUD and aggregation operations using the node native mongodb driver.
 
@@ -212,3 +215,4 @@ Check your terminal output for any errors.
 [MongodDB Aggregation Framework]:http://www.amazon.com/MongoDB-Aggregation-Framework-Principles-Examples-ebook/dp/B00DGKGWE4/ref=sr_1_1?ie=UTF8&qid=1405105431&sr=8-1&keywords=mongodb+aggregation
 [node]:http://nodejs.org
 [grunt]:http://gruntjs.com
+[northwind-mongo]:https://github.com/tmcnab/northwind-mongo
