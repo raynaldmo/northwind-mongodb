@@ -19,6 +19,9 @@ to this app*.
 
  
 * Add command line options for additional reports (employee list etc).
+* Don't use grunt to import database. Instead use command line option and
+add necessary code to create database and collections. This would allow northwind-mongodb to be published as a standalone 
+  npm package.
 * Other features you may think of.
 
 
