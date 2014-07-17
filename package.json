@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "grunt": "0.4.1",
-    "grunt-mongoimport": "0.1.4"
+    "grunt-mongoimport": "0.1.5"
   }
 }

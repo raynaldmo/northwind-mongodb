@@ -188,12 +188,14 @@ module.exports = function (grunt) {
     };
 
     // grunt-mongoimport is currently not multitask, so for now
-    // statically configure options one way or the other
+    // statically configure options for either json or csv files
     grunt.initConfig({
         mongoimport: {
-            // 7-14-2014 raynaldmo
+            // 7-16-2014 raynaldmo
             // grunt-mongoimport@0.1.4 doesn't support --headerline option
-            // pull request has been made to add this support.
+            // but ver 0.1.5 does - so one can choose csv or json files
+            // if this latter version is used.
+            // Here we opt to use json files
             // options: csv_options
             options: json_options
         }
